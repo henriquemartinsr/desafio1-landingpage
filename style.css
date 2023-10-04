@@ -1,0 +1,105 @@
+*{
+    margin: 0px;
+    font-family: 'inter';
+}
+
+#titulo-cabecalho {
+    margin-left: 60px;
+    padding-top: 200px;
+    font-size: 60px;
+}
+
+#texto-cabecalho {
+    margin: 30px 0px 0px 60px;
+    font-size: 20px;    
+}
+
+#cabecalho {
+    background-color: #303030;
+    color:white;
+    height: 475px;
+}
+
+#informacoes {
+    background-color: #F9F9F9;
+    /*display: grid;*/
+    grid-auto-flow: column;
+    columns: auto;
+    height: 230px;
+}
+
+table {
+    padding-top: 80px;
+}
+
+td {
+    padding-left:130px;
+}
+
+.info-numeros {
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.info-texto {
+    font-size: 20px;
+}
+
+#conteudo {
+    display: grid;
+    grid-auto-flow: column;
+    columns: auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+#caixa-texto {
+    margin-top: 200px;
+}
+
+#titulo-conteudo {
+    font-size: 40px;
+}
+
+#texto-conteudo {
+    font-size: 24px;
+}
+
+#formulario {
+    text-align: center;
+    background-color: #303030;
+    padding-top: 8%;
+}
+
+#tituloformulario {
+    font-size: 32px;
+    margin-bottom: 30px;
+    color: #ffffff;
+}
+
+input {
+    width: 350px;
+    height: 30px;
+    background-color: #eaece5;
+    margin: 30px;
+    border: 0px;
+    border-radius: 10px;
+    padding: 10px;
+    font-family: 'Raleway';
+    font-size: 15px
+}
+
+button {
+    background-color: #C07212;
+    height: 50px;
+    padding: 10px;
+    width: 250px;
+    margin: 60px;
+    color: #eaece5;
+    font-family: 'Raleway';
+    font-weight: bold;
+    font-size: 20px;
+    border: 0px;
+    border-radius: 10px;
+    cursor: pointer;
+}

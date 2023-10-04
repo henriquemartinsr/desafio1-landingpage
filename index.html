@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=Landing , initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500&family=Raleway&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="style.css">
+    <title>Landing Page Arquitetura</title>
+</head>
+<body>
+    <!-- CABEÇALHO-->
+    <div id="cabecalho">
+        <h1 id="titulo-cabecalho">Tradição em projetos de arquitetura</h1>
+        <p id="texto-cabecalho">Arquitetura residencial e comercial.</p>
+    </div>
+    <!-- INFORMAÇÕES -->
+    <div id="informacoes">
+        <table>
+            <tr>
+                <td class="info-numeros">850</td>
+                <td class="info-numeros">40</td>
+                <td class="info-numeros">2,000,000</td>
+            </tr>
+            <tr>
+                <td class="info-texto">empreendimentos construídos</td>
+                <td class="info-texto">anos de mercado e experiência</td>
+                <td class="info-texto">m² em projetos construídos</td>
+            </tr>
+        </table>
+    </div>
+    <!--SEÇÃO VÍDEO-->
+    <div id="conteudo">
+        <div id="caixa-texto">
+            <h1 id="titulo-conteudo">
+            Arquitetos com História e Experiência.
+        </h1>
+        <br><br>
+        <p id="texto-conteudo">
+            Nós realizamos desde 2002 projetos e gerenciamento de obras.<br>
+            Com mais de 800 projetos e 2.000.000 de m² construídos, tendo<br>
+            como principal proposta transformar em realidade os sonhos de<br>
+            seus clientes, criando projetos personalizados, unindo a tradição<br>
+            e a modernidade em nossos projetos.
+        </p>
+        </div>
+        <img id="sala" src="./img/sala.svg">        
+    </div>
+    <!-- FORMULÁRIO-->
+    <div id="formulario">
+        <h1 id="tituloformulario">Conheça mais sobre nossos serviços:</h1>
+        <form action="https://api.sheetmonkey.io/form/iPHuRyGE8x9t9k3dwjKq9x" method="post" >
+            <input type="text" placeholder="Nome" name="Name" required><br>
+            <input type="email" placeholder="E-mail" name="Email" required><br>
+            <input type="hidden" name="Created" value="x-sheetmonkey-current-date-time" />           
+            <button type="submit">Fale Conosco</button>
+        </form>
+
+    </div>
+    <script src="index.js"></script>
+</body>
+</html>
